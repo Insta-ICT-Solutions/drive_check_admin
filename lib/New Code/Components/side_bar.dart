@@ -45,7 +45,8 @@ class Sidebar extends StatelessWidget {
           ),
           Obx(()=>SidebarItem(isSelected: controller.selectedPage.value == 0, onTap: (){controller.selectedPage.value = 0;}, icon: Utils.homeIcon, title: "Home"),),
           Obx(()=>SidebarItem(isSelected: controller.selectedPage.value == 1, onTap: (){controller.selectedPage.value = 1;}, icon: Utils.userIcon, title: "User Center"),),
-          Obx(()=>SidebarItem(isSelected: controller.selectedPage.value == 2, onTap: (){controller.selectedPage.value = 2;}, icon: Utils.safeIcon, title: "OHS Verification"),)
+          Obx(()=>SidebarItem(isSelected: controller.selectedPage.value == 2, onTap: (){controller.selectedPage.value = 2;}, icon: Utils.safeIcon, title: "OHS Verification"),),
+          Obx(()=>SidebarItem(isSelected: controller.selectedPage.value == 3, onTap: (){controller.selectedPage.value = 3;}, icon: Utils.empSettingIcon, title: "Employee Settings"),),
         ],
       ),
     );

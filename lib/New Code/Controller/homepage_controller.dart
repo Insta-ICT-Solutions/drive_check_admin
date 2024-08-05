@@ -11,6 +11,7 @@ class HomepageController extends GetxController{
     Home(),
     UserCenter(),
     Home(),
+    UserCenter(),
   ].obs;
 
 }
