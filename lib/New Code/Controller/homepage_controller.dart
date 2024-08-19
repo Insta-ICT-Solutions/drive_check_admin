@@ -1,3 +1,4 @@
+import 'package:drive_check_admin/New%20Code/View/OHS/ohs_screen.dart';
 import 'package:drive_check_admin/New%20Code/View/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -10,7 +11,7 @@ class HomepageController extends GetxController{
   RxList screens = <Widget>[
     Home(),
     UserCenter(),
-    Home(),
+    OhsScreen(),
     UserCenter(),
   ].obs;
 

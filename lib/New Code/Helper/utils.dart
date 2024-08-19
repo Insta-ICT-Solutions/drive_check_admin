@@ -8,4 +8,5 @@ class Utils{
   static String userIcon = "assets/icons/user.svg";
   static String loginIcon = "assets/icons/login.svg";
   static String instaLogo = "assets/icons/InstaLogo.svg";
+  static String ohsImage = "assets/images/ohs.jpeg";
 }

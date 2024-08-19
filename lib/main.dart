@@ -2,7 +2,6 @@ import 'package:drive_check_admin/New%20Code/View/Login/login_page.dart';
 import 'package:drive_check_admin/New%20Code/Helper/get_di.dart' as di;
 import 'package:drive_check_admin/New%20Code/View/Homepage/homepage.dart';
 import 'package:drive_check_admin/firebase_options.dart';
-import 'package:drive_check_admin/screens/homescreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -10,8 +9,8 @@ import 'package:get/get.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  di.init();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  di.init();
   runApp(MyApp());
 }
 
